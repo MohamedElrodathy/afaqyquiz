@@ -29,5 +29,34 @@ typeparamter  "fuel" OR "insurance" OR "service"
 The endpoint can not be exposed more than 5 times per minute.
 
 
+exmple for this request  will be  
+
+[
+    {
+        "id": 1,
+        "vehicleName": "BMW x6",
+        "plateNumber": 12345,
+        "type": "Fuel",
+        "cost": "6.00",
+        "createdAt": "2019-12-20 11:53:05"
+    },
+    {
+        "id": 1,
+        "vehicleName": "BMW x6",
+        "plateNumber": 12345,
+        "type": "Fuel",
+        "cost": "3.00",
+        "createdAt": "2020-01-20 11:53:05"
+    },
+    {
+        "id": 1,
+        "vehicleName": "BMW x6",
+        "plateNumber": 12345,
+        "type": "Fuel",
+        "cost": "3.00",
+        "createdAt": "2019-11-20 11:53:05"
+    }
+]
+
 
 
