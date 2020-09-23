@@ -10,8 +10,9 @@ end point example
 
 http://127.0.0.1:8000/api/expenses?sortBy=cost&direction=desc&mindate=2019-01-3&type=fuel&search=bmw&maxcost=20
 
-search paramter as "vehicle name" seach  with all word or  part  of word 
-///
+  search paramter as "vehicle name" seach  with all word or  part  of word 
+
+///filters 
 sortby paramter "cost" and  "creation date"   
 direction paramter "ASC or DESC"
 //////
@@ -29,7 +30,7 @@ typeparamter  "fuel" OR "insurance" OR "service"
 The endpoint can not be exposed more than 5 times per minute.
 
 
-exmple for this request  will be  
+Example for response 
 
 [
     {
